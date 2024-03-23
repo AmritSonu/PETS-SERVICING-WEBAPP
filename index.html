@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetsX6 Serving Board</title>
+    <!-- fevicon  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_package_v0.16/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="section-five.css" />
+    <link rel="stylesheet" href="reuse.css" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="images/img_sec.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="section-eight.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="responsive_mediaQueries.css" />
+  </head>
+  <body>
+    <main class="main" style="overflow-x: hidden">
+      <!-- first section  -->
+      <header class="header" id="home">
+        <section class="section_first">
+          <nav class="multi-flex mx-3 py-2">
+            <div class="multi-flex mx-2">
+              <i class="fa-solid fa-shield-dog logo"></i>
+              <h2 class="logo_heading mx-1">PetsX6</h2>
+            </div>
+            <ul>
+              <li><a href="#home" class="scrollLink">Home</a></li>
+              <li>
+                <a href="#feature" class="scrollLink"
+                  >Live Demo <i class="fa-solid fa-caret-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#liveBlocks" class="scrollLink">Live Demo Blocks</a>
+              </li>
+              <li>
+                <a href="#buy_now" class="button-border scrollLink"
+                  >BUY NOW <i class="fa-solid fa-caret-down"></i
+                ></a>
+              </li>
+            </ul>
+            <!-- side_bar button  -->
+            <div class="side_bar_box">
+              <button class="side_bar_button">
+                <i class="ham-icon fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </nav>
+        </section>
+      </header>
+      <!-- side bar  -->
+      <div style="overflow-x: hidden; position: absolute; z-index: 5">
+        <div class="side_bar">
+          <ol>
+            <li>
+              <a href="#home" class="scrollLink rotate-btn">Home</a>
+            </li>
+            <li>
+              <a href="#feature" class="scrollLink rotate-btn">Live demo </a>
+            </li>
+            <li>
+              <a href="#liveBlocks" class="scrollLink rotate-btn"
+                >Live Demo Blocks</a
+              >
+            </li>
+            <li>
+              <a href="#buy_now" class="scrollLink view_more_btn">BUY NOW</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- Second Section  -->
+      <section class="mx-3">
+        <div class="hero-page multi-flex">
+          <div class="flex-col">
+            <h1 class="main_heading">Pets Servicing Board</h1>
+            <div class="multi-flex">
+              <i class="fa-solid fa-shield-cat cat-icon"> </i>
+              <div class="line mx-1"></div>
+              <h2 class="main-h2">
+                "Boarding Any Pets: Where your pets feel at home while you're
+                away."
+              </h2>
+            </div>
+
+            <div class="order-design">
+              <a href="#" class="book_now_link button-stop-effect"
+                >Book <span>Now </span>
+                <i class="fa-solid fa-caret-down"></i>
+              </a>
+            </div>
+          </div>
+
+          <div style="overflow: hidden">
+            <img class="main_img" src="/images/Pet_1.jpg" alt="pet_image" />
+          </div>
+        </div>
+      </section>
+
+      <!---- third section ---->
+
+      <section class="third-section mt-10 scrollLink" id="feature">
+        <div class="clip-adj py-6">
+          <h1
+            style="text-decoration: underline; font-size: 5rem; color: #ffffff"
+            class="heading-2 py-5"
+          >
+            Our Features
+          </h1>
+
+          <!-- main div  -->
+          <div class="single-flex space-evenly py-3">
+            <!-- new design -->
+            <div class="feature card">
+              <div class="border-1 first-content">
+                <h2>Pets Boarding</h2>
+              </div>
+              <div class="second-content" style="display: flex">
+                <h2>Pets Boarding</h2>
+                <a class="view_more_btn white button-stop-effect" href="#"
+                  >view more <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end  -->
+
+            <!-- new design -->
+            <div class="feature card">
+              <div class="border-2 first-content">
+                <h2>Healthy Meals</h2>
+              </div>
+              <div class="second-content" style="display: flex">
+                <h2>Healthy Meals</h2>
+                <a class="view_more_btn white button-stop-effect" href="#"
+                  >view more <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end  -->
+
+            <!-- new design -->
+            <div class="feature card">
+              <div class="border-3 first-content">
+                <h2 class="fs-6">Activity Exercise</h2>
+              </div>
+              <div class="second-content" style="display: flex">
+                <h2>Activity Exercise</h2>
+                <a class="view_more_btn white button-stop-effect" href="#"
+                  >view more <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end  -->
+          </div>
+        </div>
+      </section>
+
+      <!------forth section--->
+
+      <section class="forth-sec mt-zero multi-flex py-6 g-2 mt-6">
+        <div class="image-container">
+          <img class="pet_image" src="/images/pet-2.png" alt="pet_image" />
+        </div>
+        <div class="para-container flex-col">
+          <h2 class="para-container-heading">We can keep them happy</h2>
+          <p style="font-size: 2rem">
+            Pets are an important part of our lives and bringing happiness to
+            them should be a top priority. As pet owners, we are responsible for
+            providing them with the best possible care and attention to ensure
+            their wellbeing. This includes providing them with nutritious food,
+            regular exercise, and proper grooming. However, beyond these basics,
+            there are other ways to keep our pets happy. Spending quality time
+            with them, playing with them.
+          </p>
+
+          <div>
+            <a href="#" class="button-stop-effect book_now_link">Book Now </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- fifth Section  -->
+      <section class="fifth-sec mt- py-5" id="liveBlocks">
+        <div class="single-flex space-evenly g-2 wrap">
+          <div class="v-center-flex g-3 design">
+            <i class="carousel-icon fa-solid fa-shield-cat"></i>
+            <h2>Pets Boarding</h2>
+            <p>
+              Pet boarding is a service that provides temporary accommodation
+              for pets when their owners are unable to care for them. It can be
+              a great solution for pet owners.
+            </p>
+            <a class="view_more_btn button-stop-effect" href="#"
+              >view more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+          <div class="v-center-flex g-3 design">
+            <i class="carousel-icon fa-solid fa-apple-whole"></i>
+            <h2>Healthy Meals</h2>
+            <p>
+              Healthy meals are a crucial aspect of maintaining good physical
+              and mental health. A healthy meal typically consists of a balanced
+              combination of nutrient-dense foods.
+            </p>
+            <a class="view_more_btn button-stop-effect" href="#"
+              >view more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+
+          <div class="v-center-flex g-3 design">
+            <i class="carousel-icon fa-solid fa-heart"></i>
+            <h2>Activity Games</h2>
+            <p>
+              Activity games are a great way to have fun and stay active. These
+              games typically involve physical movement and can be played by
+              individuals or groups of people.
+            </p>
+            <a class="view_more_btn button-stop-effect" href="#"
+              >view more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+          <div class="v-center-flex g-3 design">
+            <i class="carousel-icon fa-brands fa-github"></i>
+            <h2>Pet Taxi</h2>
+            <p>
+              A pet taxi is a transportation service that caters specifically to
+              pets, offering a safe and convenient way to transport them to
+              appointments, events, or other locations.
+            </p>
+            <a class="view_more_btn button-stop-effect" href="#"
+              >view more <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- sixth  section  -->
+      <section class="six-sec mt-6">
+        <h2 class="fs-4 mt-10 m-bcolor t_center">WHAT WE STAND FOR</h2>
+        <div class="single-flex g-3 mt-6">
+          <div>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Socialization and training create well-behaved dogs and promote
+                positive interactions with people and other animals.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Routine veterinary care, including vaccinations and check-ups,
+                ensures dogs' overall health and early disease detection.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Providing a balanced diet and proper nutrition supports dogs'
+                energy levels and maintains their well-being.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Regular exercise and mental stimulation prevent behavioral
+                issues and keep dogs physically and mentally fit.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Socialization and training play a vital role in shaping a dog's
+                behavior.
+              </li>
+            </ul>
+          </div>
+          <!-- second  -->
+          <div>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Regular grooming prevents matting and skin issues, keeping cats
+                healthy and looking their best.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Routine veterinary care prevents diseases and ensures cats'
+                overall health and well-being.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Providing a balanced diet tailored to their needs supports cats'
+                immune system and digestion.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Proper nutrition and a balanced diet tailored to a dog's
+                specific needs contribute.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Proper litter box maintenance ensures hygiene and prevents
+                litter box aversion or accidents.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- section seventh  -->
+      <section class="sev-sec py-7 multi-flex mt-10" id="buy_now">
+        <!-- introduction  -->
+        <div class="introduc v-center-flex g-3">
+          <h4>BRING YOUR PET</h4>
+          <h2 class="introduc-heading">The Best Choice</h2>
+          <p>
+            "Trust the experts and choose the best choice for your furry friends
+            with our top-notch pet servicing.
+          </p>
+        </div>
+        <!-- start  -->
+        <div class="offer-card t_center">
+          <div class="linear-g2 img img1">
+            <div>
+              <span class="fs-5"> Day 1 </span>
+            </div>
+            <i class="mt-2 white button-border fs-6 fa-home fa-solid"></i>
+          </div>
+          <div class="linear-g2 img img2">
+            <ul class="offer_card_inner">
+              <li>Double room <i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Socialise <i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Brush<i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Pet Tv<i class="mx-2 fa-close fa-solid"></i></li>
+            </ul>
+          </div>
+          <div class="offer-card__content">
+            <span class="price">Only $50</span>
+          </div>
+          <div class="mt-6" style="z-index: 4">
+            <a class="view_more_btn" href="#"
+              >book now <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <!-- second start  -->
+        <div class="offer-card t_center">
+          <div class="linear-g1 img img1">
+            <div class="">
+              <span class="fs-5"> 10 Days </span>
+            </div>
+            <i class="mt-2 white button-border fs-6 fa-home fa-solid"></i>
+          </div>
+          <div class="linear-g1 img img2">
+            <ul class="offer_card_inner">
+              <li>Single room <i class="mx-1 fa-check-square fa-solid"></i></li>
+              <li>Socialise<i class="mx-1 fa-check-square fa-solid"></i></li>
+              <li>Custom Meals<i class="mx-1 fa-check-square fa-solid"></i></li>
+              <li>Spa Grooming<i class="mx-1 fa-check-square fa-solid"></i></li>
+            </ul>
+          </div>
+          <div class="offer-card__content">
+            <span class="price">Only $350</span>
+          </div>
+          <div class="mt-6" style="z-index: 4">
+            <a class="view_more_btn" href="#"
+              >book now <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <!-- third start  -->
+        <div class="offer-card t_center">
+          <div class="linear-g3 img img1">
+            <div>
+              <span class="fs-5"> 20 Day </span>
+            </div>
+            <i class="mt-2 white button-border fs-6 fa-home fa-solid"></i>
+          </div>
+          <div class="linear-g3 img img2">
+            <ul class="offer_card_inner">
+              <li>Single room <i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Exercise 2x <i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Brush<i class="mx-2 fa-check-square fa-solid"></i></li>
+              <li>Gromming 2x<i class="mx-2 fa-close fa-solid"></i></li>
+            </ul>
+          </div>
+          <div class="offer-card__content">
+            <span class="price">Only $550</span>
+          </div>
+          <div class="mt-6" style="z-index: 4">
+            <a class="view_more_btn" href="#"
+              >book now <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+        <!-- end  -->
+      </section>
+      <!-- section ninth  -->
+      <section class="sec-nin multi-flex faq-sec mt-6 py-6">
+        <div class="w-80">
+          <!-- style="width: 50%"  -->
+          <h2 class="fs-5">Pets Boarding</h2>
+          <div>
+            <ul class="faq">
+              <li class="multi-flex">
+                <div>
+                  <h2 class="question">
+                    <i class="fa-solid fa-check-circle"> </i> Well-Trained Staff
+                    <i class="fa-solid fa-plus-circle"></i>
+                  </h2>
+                  <p class="answer hidden">
+                    Our staff members are highly trained and experienced in
+                    handling pets. They undergo specialized training programs to
+                    ensure the safety, comfort, and well-being of your furry
+                    friends.
+                  </p>
+                </div>
+              </li>
+              <li class="multi-flex">
+                <div>
+                  <h2 class="question">
+                    <i class="fa-solid fa-check-circle"></i> Meticulous About
+                    Meds
+                    <i class="fa-solid fa-plus-circle"></i>
+                  </h2>
+                  <p class="answer hidden">
+                    We are meticulous about administering medications to pets.
+                    We have trained staff who carefully follow the prescribed
+                    medication schedules and ensure that your pet receives their
+                    medication as directed by you or your veterinarian.
+                  </p>
+                </div>
+              </li>
+              <li class="multi-flex">
+                <div>
+                  <h2 class="question">
+                    <i class="fa-solid fa-check-circle"></i> What To Bring
+                    <i class="fa-solid fa-plus-circle"></i>
+                  </h2>
+                  <p class="answer hidden">
+                    When boarding your pet, please bring their food, any
+                    necessary medications, vaccination records, bedding or
+                    blankets that smell familiar to them, and any favorite toys
+                    to make their stay more comfortable and enjoyable.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img class="faq-cat_img" src="/images/cat_pet-3.png.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- end  -->
+      <!-- section ten  -->
+      <section class="mt-10 sec-ten">
+        <div class="pet_offer multi-flex">
+          <div>
+            <h2 class="fs-4">Pets Boarding</h2>
+            <span>40% off</span>
+          </div>
+          <div>
+            <img class="dog_img" src="/images/cat_pet-1.png" alt="dog_pic" />
+          </div>
+          <div>
+            <div class="fa-bone-box">
+              <i class="fa-solid fa-bone"></i>
+              <a class="book-btn absolute-btn" href="#">Book now </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end  -->
+      <!--
+        
+        Section eleventh
+      
+      -->
+
+      <section class="mt-10 sec-elev">
+        <div class="single-flex space-evenly py-3" style="align-items: center">
+          <!-- class="multi-flex" -->
+          <!-- fitst item  -->
+          <div>
+            <img class="cat_img" src="/images/cat_pet-2.jpg" alt="cat_img" />
+          </div>
+
+          <!-- second item  -->
+
+          <div>
+            <!-- form  -->
+            <form class="submit-form">
+              <h5 class="fs-2">Planning a Vacation?</h5>
+              <h2 class="fs-6">Contact Us</h2>
+              <select id="pet-type" name="pet-type">
+                <option value="dog-boarding">Dog Boarding</option>
+                <option value="cat-boarding">Cat Boarding</option>
+                <option value="other-pet-care">Other Pet Care</option>
+              </select>
+              <div>
+                <input
+                  type="number"
+                  id="staying-days"
+                  name="staying-days"
+                  min="1"
+                  value="1"
+                  placeholder="Days"
+                />
+                <button class="num-button" type="button" onclick="increment()">
+                  ▲
+                </button>
+                <button class="num-button" type="button" onclick="decrement()">
+                  ▼
+                </button>
+              </div>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              />
+              <div>
+                <input class="form_btn" type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--
+        
+        Section twelve 
+      
+      -->
+      <section class="mt-10 py-6">
+        <h2 class="fs-6 t_center">Our Achievements</h2>
+        <div class="single-flex space-evenly mt-6 achieve-box">
+          <!-- 1  -->
+          <div>
+            <h6>Started</h6>
+            <i class="fa-solid fa-home"></i>
+            <span id="startedCounter" data-target="413">0</span>
+          </div>
+
+          <!-- 2  -->
+          <div>
+            <h6>Pets</h6>
+            <i class="fa-solid fa-dog"></i>
+            <span id="petsCounter" data-target="8043">0</span>
+          </div>
+
+          <!-- 3 -->
+          <div>
+            <h6>PlayDays</h6>
+            <i class="fa-solid fa-earth"></i>
+            <span id="playDaysCounter" data-target="639">0</span>
+          </div>
+
+          <!-- 4 -->
+          <div>
+            <h6>Baths</h6>
+            <i class="fa-solid fa-bath"></i>
+            <span id="bathsCounter" data-target="334">0</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        footer Section
+      -->
+      <footer
+        class="mt-10"
+        style="background-color: rgba(255, 235, 205, 0.413)"
+      >
+        <div class="single-flex space-evenly">
+          <div>
+            <i class="fa-solid fa-shield-dog logo"></i>
+            <span class="fs-2">PetsX6</span>
+
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div>
+            <h2>About</h2>
+            <ul>
+              <li><i class="fa-solid fa-clock"></i> PO Box Satsung Street</li>
+              <li>
+                <i class="fa-solid fa-phone"></i> PO Box Satsung Street
+                +459890458423
+              </li>
+              <li>
+                <i class="fa-solid fa-address-book"></i> PO Box Satsung Street
+                Mon-Sat :10Am - 8Pm
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Quick Links</h2>
+            <ul>
+              <li>PO Box Satsung Street</li>
+              <li>+459890458423</li>
+              <li>Mon-Sat :10Am - 8Pm</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Newsletter</h2>
+            <form action="#">
+              <input
+                class="your-email-footer"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+              <input class="subscribe" type="submit" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+        <!-- last div  -->
+        <div class="copyright mt-10">
+          <h3 class="fs-2" style="color: #fff">
+            © Copyright 2027 by Sonu_Singh - All Rights Reserved
+          </h3>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7202e27f31.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/[YOUR_DIRECTORY]/gsap.min.js"></script>
+  </body>
+</html>

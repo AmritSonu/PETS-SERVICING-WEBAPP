@@ -1,0 +1,26 @@
+.main_img {
+  object-fit: cover;
+  clip-path: polygon(
+    26.4% 2.8%,
+    85.8% 6%,
+    99.8% 0.8%,
+    98.4% 30.8%,
+    98.2% 74.6%,
+    98.8% 106.8%,
+    -7.2% 89.8%,
+    -8px 37%
+  );
+  margin-top: -0.5rem;
+  border-radius: 4rem;
+  width: 60vw;
+  height: 90vh;
+  -webkit-filter: contrast(116%) saturate(63%) sepia(22%);
+  filter: saturate(200%) sepia(0%);
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.7s ease-in-out;
+}
+.main_img:hover {
+  transform: scale(0.95);
+  transition: transform 0.7s ease-in-out;
+}

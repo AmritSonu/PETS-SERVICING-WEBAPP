@@ -1,0 +1,74 @@
+/* start from sixth section  */
+
+.fifth-sec h2 {
+  font-size: 2.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifth-sec p {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+.v-center-flex.g-3.design {
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: #000;
+  color: rgb(212, 235, 255);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.v-center-flex.g-3.design:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.carousel-icon {
+  font-size: 8rem;
+  color: #fe2160;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.2rem;
+}
+/*  */
+.six-sec {
+  background-color: #c4f79667;
+  padding: 1rem;
+}
+.six-sec h2 {
+  width: 50%;
+  padding: 2rem;
+  margin: 0 auto;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 70%);
+  color: #f1f2f6;
+}
+.six-sec div ul li {
+  list-style: none;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+.six-sec div ul li i {
+  font-size: 2.6rem;
+  color: #fe2160;
+}
+
+.introduc {
+  width: 15%;
+  padding: 1rem;
+}
+.introduc h4 {
+  font-size: 1.4rem;
+}
+.introduc h2 {
+  font-size: 4rem;
+  color: #fe2160;
+  text-decoration: underline;
+  /* text-align: center; */
+}
+.introduc p {
+  font-size: 2rem;
+}
+
+.sev-sec {
+  background-color: #f1f2f6;
+  /* clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%); */
+}

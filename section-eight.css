@@ -1,0 +1,120 @@
+/* .faq-sec {
+} */
+.cat_img {
+  width: 100%;
+}
+.faq {
+  list-style: none;
+  margin-top: 2.6rem;
+}
+.faq li {
+  border: 0.2rem solid rgba(128, 128, 128, 0.409);
+  border-radius: 2rem;
+  padding: 1.6rem 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.faq li .fa-check-circle {
+  color: #fe2160;
+  margin-right: 0.3rem;
+}
+.faq li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* section ten  */
+
+.sec-ten {
+  background-color: #000;
+  border-radius: 3rem 26rem;
+}
+.pet_offer {
+  padding: 1rem 2rem;
+  position: relative;
+  width: 80%;
+  height: 25rem;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2rem;
+}
+.pet_offer h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+.pet_offer span {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #e4db57a7;
+  text-transform: uppercase;
+}
+.pet_offer .dog_img {
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 35rem;
+  width: auto;
+  filter: drop-shadow(0 0.2rem 0.4rem #e4db57a7);
+  border-bottom-left-radius: 10rem;
+  /* width: 80%; */
+  /* transition: all 0.5s; */
+}
+/* .pet_offer .dog_img:hover {
+  transform: scale(1);
+  transition: all 0.5s;
+} */
+.pet_offer .fa-bone-box {
+  position: relative;
+}
+.pet_offer .fa-bone {
+  font-size: 16rem;
+  transform: rotate(-14deg);
+  color: #fe2160;
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.absolute-btn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  /* transform: translate(-50%, -50%); */
+  transform: rotate(-14deg);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.pet_offer:hover .fa-bone,
+.pet_offer:hover .absolute-btn {
+  transform: rotate(14deg);
+}
+
+/* form section */
+
+.cat_img {
+  object-fit: cover;
+  width: 60rem;
+  height: 50rem;
+  object-position: 80% 50%;
+  border-radius: 100%;
+}
+.faq-cat_img {
+  object-fit: cover;
+  object-position: 10% 100%;
+  border-radius: 100% 0 0 100%;
+  width: 30vw;
+  margin-left: 2rem;
+  height: 50rem;
+}
+/* 
+Section twelve 
+ */
+.achieve-box > div {
+  font-size: 4.5rem;
+}
+.achieve-box i {
+  color: #fe2160;
+  font-size: 6rem;
+  margin-top: 2rem;
+}
+.achieve-box span {
+  font-weight: 700;
+}

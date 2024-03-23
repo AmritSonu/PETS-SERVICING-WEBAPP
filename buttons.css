@@ -1,0 +1,107 @@
+/* 
+Main Button for Book now by the name of (Book Now)....
+*/
+.book_now_link:link,
+.book_now_link:visited {
+  font-size: 2.6rem;
+  background-color: #fe2160;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  box-shadow: -0.6rem -1rem 0.6rem rgba(255, 217, 0, 0.671);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.book_now_link:hover span {
+  border-color: rgb(4, 28, 44);
+  transition: all 0.5s ease-in-out;
+}
+
+.order-design span {
+  /* background-color: #066b1586; */
+  border: 0.8rem dotted rgb(122, 202, 255);
+  border-right: none;
+  border-left: none;
+  /* box-shadow: 1rem 1rem rgba(218, 165, 32, 0.548); */
+  padding: 0.2rem 0;
+  margin: 0 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.book_now_link:hover {
+  background-color: rgb(52, 218, 255);
+  box-shadow: 1rem 1rem 0.6rem #fe2160;
+  /* transition: all 0.2s ease-out; */
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* view more button  */
+.view_more_btn:link,
+.view_more_btn:visited {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  color: #fe9721;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.view_more_btn:hover,
+.view_more_btn:active {
+  color: #fe2160;
+  transform: translateX(2.6rem);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* 
+//////////
+*/
+/* new button design  */
+.rotate-btn:visited,
+.rotate-btn:link {
+  text-align: center;
+  width: 100%;
+  height: 2.4rem;
+  border-radius: 5rem;
+  font-size: 3rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.rotate-btn:visited::before,
+.rotate-btn:link::before {
+  content: "";
+  width: 0;
+  height: 4.6rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #34e1d0 0%, #fe2160 100%);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.rotate-btn:hover::before,
+.rotate-btn:active::before {
+  width: 100%;
+}
+
+/* simple book now button  */
+.book-btn:link,
+.book-btn:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.book-btn:hover,
+.book-btn:active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
